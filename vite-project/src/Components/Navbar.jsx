@@ -18,17 +18,18 @@ function Navbar() {
         <li className="nav-item">
           <Link className="nav-link" to="contact">Contact</Link>
         </li>
-        <li  className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" to="/products" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        {/* classes  dropdown dropdown-toggle role="button" data-bs-toggle="dropdown" aria-expanded="false"*/}
+        <li  className="nav-item ">
+          <Link className="nav-link " to="/categories" >
             Categories
           </Link>
-          <ul className="dropdown-menu">
+          {/* <ul className="dropdown-menu">
             <li><Link className="dropdown-item" to="products/phones">Phones</Link></li>
             <li><Link className="dropdown-item" to="products/tablets">Tablets</Link></li>
             <li><Link className="dropdown-item" to="products/laptops">Laptops</Link></li>
             <li><hr className="dropdown-divider"/></li>
             <li><a className="dropdown-item" href="google.com">Something else here</a></li>
-          </ul>
+          </ul> */}
         </li>
         <li className="nav-item">
           <a className="nav-link disabled">Disabled</a>
